@@ -1,0 +1,7 @@
+{
+  "emitFieldsClasses": false,
+  "generateSdkMessages": false,
+  "entityNamesFilter": ["account", "contact", "task"],
+  "namespace": "uds.CRM.Model",
+  "serviceContextName": "UdsContext"
+}
