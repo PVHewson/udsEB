@@ -1,11 +1,7 @@
 using Microsoft.Xrm.Sdk;
-using Microsoft.Xrm.Sdk.Extensions;
-using Microsoft.Xrm.Sdk.PluginTelemetry;
 using System;
-using System.Runtime.CompilerServices;
 using System.ServiceModel;
 using uds.CRM.Model;
-using static uds.CRM.Model.ContextMixin;
 
 namespace uds
 {
