@@ -1,7 +1,8 @@
-namespace uds.CRM.Model
+using Microsoft.Xrm.Sdk;
+
+namespace uds.CRM.Model;
+
+public partial class Contact : Entity
 {
-  public partial class Contact
-  {
-      
-    }
+
 }

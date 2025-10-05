@@ -1,13 +1,13 @@
 using System;
+using Microsoft.Xrm.Sdk;
 
-namespace uds.CRM
+namespace uds.CRM.Model;
+
+public partial class Task : Entity
 {
-  public partial class Task
+  // Add properties or methods specific to this partial class here
+  public void ExecuteTask()
   {
-    // Add properties or methods specific to this partial class here
-    public void ExecuteTask()
-    {
-      Console.WriteLine("Executing task...");
-    }
+    Console.WriteLine("Executing task...");
   }
 }
